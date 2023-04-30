@@ -1,0 +1,28 @@
+.navbar {
+  background-color: lightblue;
+  color: #fff;
+  padding: 10px;
+  display: flex;
+  height: 50px;
+}
+
+.navbar-elements {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+.navbar-elements > a {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+  border: 1px solid #fff;
+  height: 80%;
+  border-radius: 5px;
+  padding: 0 20px;
+}
